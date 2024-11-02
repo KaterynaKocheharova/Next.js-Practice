@@ -6,6 +6,7 @@ export default function Home() {
     <main>
       <section>
         <h1 className="text-3xl">HELLO</h1>
+        <p>{new Date().toTimeString()}</p>
       </section>
     </main>
   </header>
